@@ -1,0 +1,12 @@
+# Node / Frontend
+node_modules/
+**/node_modules/
+dist/
+.vite/
+
+# Go / Backend
+**/backend/main
+**/backend/*.exe
+
+# Editor
+.vscode/
