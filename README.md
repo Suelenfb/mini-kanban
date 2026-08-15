@@ -106,7 +106,7 @@ Resumo do fluxo:
 
 1. Usuário acessa o board → frontend busca as tarefas (`GET /api/tasks`) e renderiza as 3 colunas.
 2. A partir daí, pode:
-   - **Criar** tarefa → modal → `POST /api/tasks` → card aparece em `To Do`.
+   - **Criar** tarefa → modal → `POST /api/tasks` → card aparece em `A Fazer`.
    - **Editar** tarefa → modal → `PUT /api/tasks/{id}` → card atualizado.
    - **Mover** tarefa (drag-and-drop) → `PUT /api/tasks/reorder` → card muda de coluna/posição.
    - **Excluir** tarefa → `DELETE /api/tasks/{id}` → card removido.
