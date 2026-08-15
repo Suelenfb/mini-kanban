@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:8080/api'
+const API_URL = 'https://mini-kanban.onrender.com/api'
 
 async function request(path, options = {}) {
   const res = await fetch(`${API_URL}${path}`, {
